@@ -1,4 +1,4 @@
-# AtCoder-AC-prog
+# auto-pusher
 ## 概要
 [togatoga](https://github.com/togatoga)様の[procon-gardener](https://github.com/togatoga/procon-gardener)を実行し、Pushするという一連の動作を自動化したものです。
 
