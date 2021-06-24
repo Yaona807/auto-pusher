@@ -22,6 +22,10 @@ def main():
     os.chdir(path)
     repo = git.Repo()
 
+    # リモートリポジトリから最新を取り込むためPullする
+    o = repo.remotes.origin
+    o.pull()
+
     # Pushする
     origin = repo.remote(name='origin')
     origin.push()
